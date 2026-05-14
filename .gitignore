@@ -8,3 +8,7 @@ data/*.db
 data/*.db-*
 drizzle/meta
 *.tsbuildinfo
+next-dev.err.log
+next-dev.out.log
+next-dev.err.log
+next-dev.out.log
