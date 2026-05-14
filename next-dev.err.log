@@ -1,0 +1,26 @@
+
+  #  C:\Program Files\nodejs\node.exe[16852]: std::shared_ptr<InitializationResultImpl> __cdecl node::InitializeOncePerProcessInternal(const std::vector<std::string> &, ProcessInitializationFlags::Flags) at src\node.cc:1252
+  #  Assertion failed: ncrypto::CSPRNG(nullptr, 0)
+
+----- Native stack trace -----
+
+ 1: 00007FF682B93B5A node::MultiIsolatePlatform::DisposeIsolate+770682
+ 2: 00007FF682BF72E5 node::InitializeOncePerProcess+10277
+ 3: 00007FF682BF8447 node::Start+407
+ 4: 00007FF682CB5F32 node::AsyncResource::CallbackScope::CallbackScope+674
+ 5: 00007FF682EE5FE4 node::AsyncResource::CallbackScope::CallbackScope+2294612
+ 6: 00007FFD52E0E8D7 BaseThreadInitThunk+23
+ 7: 00007FFD5358C3FC RtlUserThreadStart+44
+
+  #  C:\Program Files\nodejs\node.exe[2372]: std::shared_ptr<InitializationResultImpl> __cdecl node::InitializeOncePerProcessInternal(const std::vector<std::string> &, ProcessInitializationFlags::Flags) at src\node.cc:1252
+  #  Assertion failed: ncrypto::CSPRNG(nullptr, 0)
+
+----- Native stack trace -----
+
+ 1: 00007FF682B93B5A node::MultiIsolatePlatform::DisposeIsolate+770682
+ 2: 00007FF682BF72E5 node::InitializeOncePerProcess+10277
+ 3: 00007FF682BF8447 node::Start+407
+ 4: 00007FF682CB5F32 node::AsyncResource::CallbackScope::CallbackScope+674
+ 5: 00007FF682EE5FE4 node::AsyncResource::CallbackScope::CallbackScope+2294612
+ 6: 00007FFD52E0E8D7 BaseThreadInitThunk+23
+ 7: 00007FFD5358C3FC RtlUserThreadStart+44
